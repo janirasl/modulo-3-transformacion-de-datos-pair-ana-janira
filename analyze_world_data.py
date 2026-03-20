@@ -9,7 +9,7 @@ def clean_pct(x):
     if pd.isnull(x) or str(x).lower() == 'nan':
         return np.nan
     return float(str(x).replace('%', '').replace(',', '').strip())
-
+1
 def clean_num(x):
     if pd.isnull(x) or str(x).lower() == 'nan':
         return np.nan
